@@ -11,4 +11,7 @@ s = int(input())
 res = (s // 3) // 2
 petya = serega = res
 katya = s - (petya + serega)
-print(s , '->', petya, katya, serega)
+if s % 2 == 0:
+    print(s , '->', petya, katya, serega)
+else: 
+    print('Неверное S')    
